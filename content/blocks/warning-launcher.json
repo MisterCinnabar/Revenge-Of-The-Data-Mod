@@ -1,0 +1,147 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Warning Launcher",
+	"description": "A launcher made out of error screens and crash logs.",
+	"health": 1300,
+ "targetAir": true,
+ "targetGround": true,
+	"size": 3,
+	"reload": 21,
+	"range": 520,
+	"inaccuracy": 5,
+	"rotatespeed": 2.1,
+	"recoil": 14,
+	"shootSound": "fire",
+	"ammo": {
+   	"coal": {
+			"speed": 5.0,
+			"damage": 47,
+			"reloadMultiplier": 2,
+			"bulletWidth": 15,
+			"bulletHeight": 50,
+			"ammoMultiplier": 2,
+			"type": "ArtilleryBulletType"
+    "bulletSprite": "crash-screen"
+		},
+   	"copper": {
+			"speed": 7.0,
+			"damage": 67,
+			"reloadMultiplier": 1.8,
+			"bulletWidth": 15,
+			"bulletHeight": 50,
+			"ammoMultiplier": 1.7,
+			"type": "ArtilleryBulletType"
+    "bulletSprite": "crash-screen"
+		},
+   	"plastanium": {
+			"speed": 6.0,
+			"drag": 0.01,
+			"damage": 69,
+			"splashDamage": 47,
+			"splashDamageRadius": 35,
+			"bulletWidth": 15,
+			"bulletHeight": 50,
+			"homingPower":1000,
+			"homingRange":300,
+			"hitEffect":"pulverizeRedder",
+			"ammoMultiplier": 5,
+			"collidesTiles": true,
+			"type": "ArtilleryBulletType"
+    "bulletSprite": "crash-screen"
+			"fragBullet": {
+				"speed": 3.0,
+				"damage": 12,
+				"splashDamage": 8,
+				"splashDamageRadius": 15,
+				"bulletWidth": 8,
+				"bulletHeight": 8,
+				"homingPower":20,
+				"homingRange":75,
+				"lifetime": 10,
+				"hitShake": 0,
+				"ammoMultiplier": 1,
+				"collidesTiles": true,
+				"backColor": "ff7752",
+				"frontColor": "ff5a52",
+				"hitEffect":"pulverizeRedder",
+				"fragBullet": {
+					"speed": 3.0,
+					"damage": 12,
+					"splashDamage": 9,
+					"splashDamageRadius": 14,
+					"bulletWidth": 6,
+					"bulletHeight": 6,
+					"homingPower":20,
+					"homingRange":75,
+					"lifetime": 20,
+					"backColor": "ff6760",
+					"frontColor": "ff6760",
+					"hitEffect":"pulverizeRedder",
+					"fragBullet": {
+						"speed": 3.0,
+						"damage": 9,
+						"splashDamage": 7,
+						"splashDamageRadius": 14,
+						"bulletWidth": 6,
+						"bulletHeight": 6,
+						"homingPower":20,
+						"homingRange":75,
+						"lifetime": 20,
+						"backColor": "ff817b",
+						"frontColor": "ff817b",
+						"hitEffect":"pulverizeRed",
+						"fragBullet": {
+							"speed": 3.0,
+							"damage": 7,
+							"splashDamage": 5,
+							"splashDamageRadius": 12,
+							"bulletWidth": 5,
+							"bulletHeight": 5,
+							"homingPower":20,
+							"homingRange":75,
+							"lifetime": 20,
+							"backColor": "ff9e99",
+							"frontColor": "ff9e99",
+							"hitEffect":"pulverizeRed",
+							"fragBullet": {
+								"speed": 3.0,
+								"damage": 5,
+								"splashDamage": 8,
+								"splashDamageRadius": 18,
+								"bulletWidth": 4,
+								"bulletHeight": 4,
+								"homingPower":20,
+								"homingRange":400,
+								"lifetime": 30,
+								"backColor": "ffc0bd",
+								"frontColor": "ffc0bd",
+								"hitEffect":"pulverize",
+							},
+							"fragBullets": 1
+						},
+						"fragBullets": 1
+					},
+					"fragBullets": 1
+				},
+				"fragBullets": 1
+			},
+			"fragBullets": 2
+		},
+		"sand": {
+			"speed": 5.0,
+			"damage": 70,
+			"reloadMultiplier": 1.5,
+			"bulletWidth": 15,
+			"bulletHeight": 50,
+			"ammoMultiplier": 2,
+			"type": "ArtilleryBulletType"
+    "bulletSprite": "crash-screen"
+		},
+	}
+  "requirements": [
+		{ "item": "lead", "amount": 260 }
+		{ "item": "metaglass", "amount": 140 },
+	],
+	"category": "turret",
+	"research": "spectre"
+}

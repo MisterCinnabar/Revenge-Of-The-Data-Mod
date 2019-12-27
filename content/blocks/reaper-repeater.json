@@ -1,0 +1,94 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Reaper Repeater",
+	"description": "A repeater made out of Reaper spare parts. Heats bullets up to show a neon color and to terminate foes anf enemies.",
+	"health": 1100,
+ "targetAir": true,
+ "targetGround": true,
+	"size": 2,
+	"reload": 30,
+	"range": 500,
+	"inaccuracy": 2,
+	"rotatespeed": 2.1,
+	"recoil": 12,
+	"shootSound": "fuck-off",
+	"shootEffect": "lancerLaserShoot",
+	"ammo": {
+   	"coal": {
+			"speed": 5.0,
+			"damage": 55,
+			"reloadMultiplier": 2.8,
+			"bulletWidth": 6,
+			"bulletHeight": 15,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "6665d2",
+			"frontColor": "00ffff"
+		},
+   	"copper": {
+			"speed": 7.0,
+			"damage": 52,
+			"reloadMultiplier": 1.8,
+			"bulletWidth": 4,
+			"bulletHeight": 15,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1.7,
+			"backColor": "6665d2",
+			"frontColor": "00ffff"
+		},
+   	"phase-fabric": {
+			"speed": 7.0,
+			"damage": 74,
+			"reloadMultiplier": 4.8,
+			"bulletWidth": 10,
+			"bulletHeight": 24,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+    "status": "corroded",
+    "statusDuration": 1000,
+    "fragBullets": 20,
+    "fragVelocityMin": 15,
+    "fragVelocityMax": 30,
+    "splashDamageRadius": 9,
+    "incendAmount": 5,
+    "incendChance": 6,
+    "homingPower": 1000,
+    "homingRange": 700,
+			"ammoMultiplier": 5.3,
+			"backColor": "6665d2",
+			"frontColor": "00ffff"
+		},
+		"sand": {
+			"speed": 5.0,
+			"damage": 62,
+			"reloadMultiplier": 1.5,
+			"bulletWidth": 7,
+			"bulletHeight": 11,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "ff6ec7",
+			"frontColor": "39ff14"
+		},
+		"spore-pod": {
+			"speed": 6.0,
+			"damage": 70,
+			"reloadMultiplier": 3.7,
+			"bulletWidth": 7,
+			"bulletHeight": 11,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "1b03a3",
+			"frontColor": "bc13fe"
+		}
+	}
+  "requirements": [
+		{ "item": "lead", "amount": 260 }
+		{ "item": "titanium", "amount": 120 },
+	],
+	"category": "turret",
+	"research": "ripple"
+}

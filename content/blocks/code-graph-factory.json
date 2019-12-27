@@ -1,0 +1,25 @@
+{
+	"name": "Code Graph Factory",
+	"description": "Writes scripts and forges Code Graph units.",
+	"type": "UnitFactory",
+	"unitType": "code-graph",
+	"size": 2,
+	"produceTime": 350,
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 25},
+				{"item": "titanium", "amount": 30}
+			]
+		}
+	},
+	"category": "units",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 70 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "titanium", "amount": 20 }
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "MinerDrone",
+	"name": "Micro Manager",
+	"description": "Overpowered edition of the original Draug Miner drone. Expensive to make, but worth it.",
+	"maxVelocity": 60,
+	"speed": 0.3,
+	"flying": true,
+	"health": 40,
+	"engineOffset": 2.0,
+	"engineSize": 3, 
+	"rotateSpeed": 3,
+	"mass": 80,
+	"tomine": ["copper", "lead", "titanium", "thorium"],
+	"drillPower":7.0,
+	"itemCapacity": 1000,
+	"range":10,
+	"minePower": 21.0,
+	"weapon":{
+		"name":"wrath",
+		"bullet":"lancerLaser"
+	}
+}

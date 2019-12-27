@@ -1,0 +1,18 @@
+{
+	"type": "flyingUnit",
+	"name": "Code Graph",
+	"description": "Special flying unit that uses missles as ammunition and plays a peculiar sound that goes off while firing...",
+	"speed": 0.475,
+	"flying": true,
+	"health": 230,
+	"engineOffset": 5.5,
+	"range": 190,
+	"weapon": {
+		"name": "code-graph-blaster",
+		"length": 3,
+		"reload": 7,
+		"alternate": true,
+		"bullet": "missileRevenant"
+  "shootSound": "fuck-off"
+	}
+}
